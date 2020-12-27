@@ -10,7 +10,7 @@
     "start:es": "ng serve -c=es --port 4201",
     "start:fr": "ng serve -c=fr --port 4202",
     "start:ja": "ng serve -c=ja --port 4203",
-    "build": "ng build",
+    "build": "ng build --prod",
     "build:prod": "ng build --prod",
     "build:optimized": "ng build --prod --build-optimizer --aot",
     "build:stats": "ng build --stats-json",
